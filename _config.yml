@@ -1,12 +1,12 @@
 # Site
-name: "Shailender Rawat"
-description: "Ideate, Build and Product development experience"
+name: "Ideate, Build and Product development experience"
+description: ""
 meta_description: "Shailender Rawat - Ideate, Build & Product development experience"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: 'UA-46278016-1'
-disqus: 'shailender.disqus.com'
+disqus: 'blog.shailenderrawat.com'
 #mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 # Authors
