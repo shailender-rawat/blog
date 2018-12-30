@@ -1,0 +1,41 @@
+# Site
+name: "Shailender Rawat"
+description: "Ideate, Build & Test Products development experience"
+meta_description: "Shailender Rawat - Ideate, Build & Product development experience"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: /
+google_analytics: 'UA-46278016-1'
+disqus: 'demowebsite'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+# Authors
+authors:
+  shailender:
+    name: Shailender Rawat
+    display_name: Shailender
+    email: shailender.rawat@gmail.com
+    web: https://shailenderrawat.com
+    twitter: https://twitter.com/_shailender
+    description: "Technologist"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+highlighter: rouge
