@@ -72,22 +72,3 @@ comments: true
 ---
 ```
 
-### Copyright
-
-Copyright (C) 2018 WowThemes.net.
-
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
-
-<a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-### Contribute
-
-- [Clone the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-- Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-- Open a pull request on GitHub and describe the feature or fix.
-
-Thank you so much for your contribution!
-
------------------
-
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip)
