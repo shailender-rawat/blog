@@ -4,10 +4,10 @@ description: "Ideate, Build & Test Products development experience"
 meta_description: "Shailender Rawat - Ideate, Build & Product development experience"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /
+baseurl: ''
 google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+disqus: 'shailender.disqus.com'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 # Authors
 authors:
@@ -16,6 +16,7 @@ authors:
     display_name: Shailender
     email: shailender.rawat@gmail.com
     web: https://shailenderrawat.com
+    gravatar: 20f8401a1ed6c9e5906d3f1f2558e711
     twitter: https://twitter.com/_shailender
     description: "Technologist"
 
