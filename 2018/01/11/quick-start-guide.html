@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
-<link rel="icon" href="/assets/images/logo.png">
+<link rel="icon" href="/assets/images/logo.png" />
     
-<title>{{ page.title }} | {{site.name}}</title>
+<title>Quick Start Guide | Shailender Rawat</title>
     
-{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %} 
+ 
     
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
     
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
     
-<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet" />
     
-<link href="/assets/css/screen.css" rel="stylesheet">
+<link href="/assets/css/screen.css" rel="stylesheet" />
     
-<link href="/assets/css/main.css" rel="stylesheet">
+<link href="/assets/css/main.css" rel="stylesheet" />
     
 </head>
     
-{% if jekyll.environment == 'production' %}
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', '{{site.google_analytics}}', 'auto');
+  ga('create', 'UA-46278016-1', 'auto');
   ga('send', 'pageview');
 </script>
-{% endif %}
+
     
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body class="{{ layout }}">
+
+<body class="layout-archive">
 
     
 <!-- Begin Menu Navigation
@@ -45,8 +45,8 @@
     <div class="container pr-0">    
     
     <!-- Begin Logo -->
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.logo }}" alt="{{ site.name }}">
+    <a class="navbar-brand" href="//">
+    <img src="assets/images/logo.png" alt="Shailender Rawat" />
     </a>
     <!-- End Logo -->
   
@@ -68,27 +68,23 @@
                 <a class="nav-link" href="https://shailenderrawat.com/blog.html">Tweets(s)</a>
                 </li>
                 
-                {% if page.url == "/" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                
+                </li><li class="nav-item">
+                
+                <a class="nav-link" href="//index.html">Blog</a>
                 </li>
                 
-                {% if page.url == "/about.html" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
+                
+                </li><li class="nav-item">
+                
 
 
-                <li class="nav-item">
+                </li><li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://github.com/shailender-rawat/"><i class="fab fa-github"></i></a>
                 </li>
                 
                 <li class="nav-item">
-                <a target="_blank"  class="nav-link" href="https://twitter.com/_shailender"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" class="nav-link" href="https://twitter.com/_shailender"><i class="fab fa-twitter"></i></a>
                 </li>
                 
                 <li class="nav-item">
@@ -96,7 +92,7 @@
                 </li>
                 
                 <li class="nav-item">
-                <a target="_blank"  class="nav-link" href="https://instagram.com/_shailender"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" class="nav-link" href="https://instagram.com/_shailender"><i class="fab fa-instagram"></i></a>
                 </li>
                 
             </ul>		
@@ -116,9 +112,9 @@
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
+    <h1 class="sitetitle">Shailender Rawat</h1>
     <p class="lead">
-         {{ site.description }}
+         Ideate, Build & Test Products development experience
     </p>
 </div>
 
@@ -126,19 +122,32 @@
     
 <!-- Content
 ================================================== --> 
-<div class="main-content">
-    {{ content }}
+<div class="main-content" data-cms-content-wrapper="/_layouts/default.html">
+    <!-- Begin List Posts
+================================================== -->
+<section class="recent-posts">
+<div class="section-title">
+    <h2>Archive of posts with <span> 'Quick Start Guide'</span></h2>
+</div>
+<div class="row listrecent">
+
+
+
+</div>
+</section>
+
+
 </div>
 
 <!-- Bottom Alert Bar
 ================================================== -->
 <div class="alertbar">
 	<div class="container text-center">
-		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
-        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+		<span><img src="//assets/images/logo.png" alt="" /> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group">
-            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
-            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required />
+            <input type="submit" value="Subscribe" name="subscribe" class="heart" />
             </div>
         </form>
 	</div>
@@ -156,17 +165,15 @@
             </div>
 		</div>
 		<div class="col-md-8 p-5 align-self-center text-center">
-          {% assign tags_list = site.categories %}  
-          {% if tags_list.first[0] == null %}
-            {% for tag in tags_list %} 
-              <a href="{{ site.baseurl }}/category/{{ tag }}">{{ tag | capitalize }} {{ site.tags[tag].size }}</a>
-            {% endfor %}
-          {% else %}
-            {% for tag in tags_list %} 
-              <a href="{{ site.baseurl }}/category/{{ tag[0] }}">{{ tag[0] | capitalize }} ({{ tag[1].size }})</a>
-            {% endfor %}
-          {% endif %}
-        {% assign tags_list = nil %}
+            
+          
+             
+              <a href="//category/Personal">Personal (1)</a>
+             
+              <a href="//category/Website">Website (1)</a>
+            
+          
+        
 
 		</div>
 	</div>
@@ -180,7 +187,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+                 Copyright © 2018 Shailender Rawat 
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">    
                 <a target="_blank" href="https://www.wowthemes.net">Mediumish Theme</a> by WowThemes.net
@@ -198,16 +205,16 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
     
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="//assets/js/jquery.min.js"></script>
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
-<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="//assets/js/ie10-viewport-bug-workaround.js"></script>
     
-<script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
+<script src="//assets/js/mediumish.js"></script>
     
-<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+<script id="dsq-count-scr" src="//demowebsite.disqus.com/count.js"></script>
 </body>
 </html>
